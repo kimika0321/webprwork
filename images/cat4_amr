@@ -1,0 +1,850 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>ペット保険シェアNo.1のアニコム損保｜どうぶつ健保ふぁみりぃ</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- link -->
+	<link href="css/base.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/slick-theme.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/slick.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/common.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/youtube.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- js -->
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-KQCBNZW');
+	</script>
+	<!-- End Google Tag Manager -->
+</head>
+
+<style>
+	/* モーダルCSS */
+	.modalArea {
+		display: none;
+		position: fixed;
+		z-index: 10;
+		/*サイトによってここの数値は調整 */
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.modalBg {
+		width: 100%;
+		height: 100%;
+		background-color: rgba(30, 30, 30, 0.9);
+	}
+
+	.modalWrapper {
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 90%;
+		max-width: 500px;
+		padding: 10px 30px;
+		background-color: #fff;
+		height: 80%;
+		overflow: scroll;
+	}
+
+	.closeModal {
+		position: absolute;
+		top: 0.5rem;
+		right: 1rem;
+		cursor: pointer;
+	}
+
+	.bg-yellow {
+		width: 1000px;
+		height: 130px;
+		background-color: #f0f900;
+		text-align: center;
+		font-weight: bold;
+		margin: 10px auto;
+		font-size: 1.25rem;
+		text-align: justify;
+	}
+
+	.fc-gr {
+		color: #53aa32;
+		text-decoration: underline;
+	}
+
+	.h-title {
+		color: #4c0e00;
+		font-size: 1.25rem;
+		margin-top: 70px;
+		color: #fff;
+	}
+
+	.modalContents p,
+	.modalContents li {
+		text-align: justify;
+	}
+
+	.modalContents h3 {
+		color: #2b7343;
+	}
+
+	ul {
+		list-style-position: inside;
+	}
+
+	.modalContents ul li {
+		text-indent: -1em;
+	}
+
+	.fc-cha {
+		color: #a6753d;
+		padding: 3%;
+		font-size: 19px;
+		text-align: justify;
+	}
+
+	@media only screen and (min-width: 769px) {
+		.mt-100 {
+			margin-top: 100px;
+		}
+
+		.fc-cha {
+			color: #a6753d;
+			padding: 3%;
+			font-size: 22.5px;
+			text-align: center;
+		}
+	}
+
+	/* 以下ボタンスタイル */
+	button {
+		width: 1000px;
+		font-size: 1.5rem;
+		color: rgb(0, 102, 0);
+		padding: 30px;
+		background-color: #fff;
+		border-top: 2px solid rgb(0, 102, 0);
+		border-right: none;
+		border-left: none;
+		border-bottom: 2px solid rgb(0, 102, 0);
+		border-radius: 2px;
+		cursor: pointer;
+	}
+
+	@media screen and (max-width: 768px) {
+		.bg-yellow {
+			width: 100%;
+		}
+
+		button {
+			width: 100%;
+		}
+	}
+</style>
+
+<body>
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQCBNZW" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+
+	<header>
+		<div class="wrap">
+			<h1><a href="#"><img src="img/logo.png" alt="アニコムのペット保険 どうぶつ健保ふぁみりぃ"></a></h1>
+			<div class="head_link"><a>保険料を<br>しらべる</a></div>
+		</div>
+	</header>
+
+	<div class="fixed_btn">
+		<a>保険料を<br>しらべる</a>
+	</div>
+
+	<!-- お問い合わせ -->
+	<div class="check">
+		<div class="check_header">
+			<div class="container">
+				<h2>お問い合わせ</h2>
+				<p>
+					<span></span>
+					<span></span>
+				</p>
+			</div>
+		</div>
+		<div class="check_content">
+			<div class="check_inner">
+				<ul>
+					<li>
+						<span>保険料がすぐ分かる！</span>
+						<a href="https://cs.anicom-sompo.co.jp/ol_kanyu/top/99-0000-0000/999988880188/" target="_blank" class="appBtn"><img src="img/check_nav01.png"
+								alt="オンラインお見積り"></a>
+					</li>
+					<li>
+						<span>パンフレット・お申込書をお届け！</span>
+						<a href="/seikyu/?aid=999988880188" target="_blank"><img src="img/check_nav02.png" alt="資料請求"></a>
+					</li>
+					<li>
+						<span>ＷＥＢで簡単お申込み！</span>
+						<a href="https://cs.anicom-sompo.co.jp/ol_kanyu/top/99-0000-0000/999988880188/" target="_blank" class="appBtn"><img src="img/check_nav03.png"
+								alt="オンラインお申込み"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="check_contact check_online">
+				<ul>
+					<li>
+						<span>ご不明な点があればご相談ください</span>
+						<a href="tel:08008888256"><img src="img/check_nav05.png" alt="電話する"></a>
+					</li>
+				</ul>
+				<div class="tel">
+					<p>TEL：0800-888-8256</p><span>（受付時間）<i>平日</i>9:30〜17:30<br><i>土日祝</i>9:30〜15:30</span>
+				</div>
+				<div class="btn close_btn"><a>閉じる</a></div>
+			</div>
+		</div>
+	</div>
+
+	<main>
+		<section id="comment">
+			<div class="sec_kv">
+				<img src="img/comment_kv.png" alt="通院 入院 手術 補償の総合タイプの保険" class="pc">
+				<img src="img/sp/comment_kv.png" alt="通院 入院 手術 補償の総合タイプの保険" class="sp">
+			</div>
+			
+			<div class="sec_ttl">
+				<div class="sec_catch"><span>何があっても怖くない！</span></div>
+				<h3>アニコム損保の<br class="sp">「ペット保険」に<br class="sp">入ってよかった！</h3>
+				<p class="sec_lead pc">ご契約者様からコメントを頂いています。</p>
+			</div>
+
+			<div class="sec_ttl">
+				<p class="sec_lead sp">ご契約者様からコメントを頂いています。</p>
+			</div>
+
+			<div class="slider">
+
+				<div class="slide">
+					<div class="slide_inner">
+						<div class="name">
+							<figure><img src="/lp/img/tsubukichi.png"></figure>
+							<span>チワワ<br>つぶ吉ちゃん</span>
+						</div>
+						<p>若い頃は、元気で病気知らずでしたが、シニアになると尿管結石を発症し、３度の入院と２回の手術を経験しました。また、心臓のお薬も必要に・・。<br>ちょっとした体調変化や検査の為に通院も増えましたが、保険があるので安心して病院に行くことが出来ます。
+						</p>
+					</div>
+					<div class="slide_inner02">
+						<figure><img src="img/comment/icon_anicom.png"></figure>
+						<div class="name">
+							<span>アニコム</span>
+							<p>若い時は元気なワンちゃんでも、年を取ると泌尿器系の疾患や心臓疾患など慢性の病気になる傾向が増えます。<br>また、慢性疾患は高額な治療費を必要とするケースも多く、安心して治療を受けるためにも保険は必要です。
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide_inner">
+						<div class="name">
+							<figure><img src="/lp/img/uzu.png"></figure>
+							<span>ねこ<br>うずちゃん</span>
+						</div>
+						<p>６歳で保険に入った後に、何気なく受けた検査でまさかの腎不全がみつかりました。今も元気で過ごせていますが、何かあった時は、保険のおかげで積極的な治療をすることが出来ます。<br>毎年保険のお世話になっています。
+						</p>
+					</div>
+					<div class="slide_inner02">
+						<figure><img src="img/comment/icon_anicom.png"></figure>
+						<div class="name">
+							<span>アニコム</span>
+							<p>シニア猫の1/5は腎臓病を抱えています。<br>通院が主となるため、フルカバーの保険に入っておくことをお勧めします。</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide_inner">
+						<div class="name">
+							<figure><img src="/lp/img/luna.png"></figure>
+							<span>ミニチュアダックスフンド<br>ルナちゃん</span>
+						</div>
+						<p>小さい頃からなんでも口に入れるおてんば娘。<br>お留守番中にベットを破壊し大量の断熱材を食べてしまい、病院へ急行し内視鏡手術となりました。30万を超える請求の衝撃は想像以上でしたが、それを和らげてくれたのは保険でした。<br>お守り代わりの大切な保険です。
+						</p>
+					</div>
+					<div class="slide_inner02">
+						<figure><img src="img/comment/icon_anicom.png"></figure>
+						<div class="name">
+							<span>アニコム</span>
+							<p>どうぶつさんは性格によっては、なんでも食べてしまう子がいます。その結果、腸閉塞を発症し、急いで手術しなければ命を落とすことも！どうぶつの「ケガや病気」は案外身近なところに潜んでいるものです。
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide_inner">
+						<div class="name">
+							<figure><img src="/lp/img/rock.png"></figure>
+							<span>ねこ<br>ロックちゃん</span>
+						</div>
+						<p>見た目は健康そのものなのに、1歳の健康診断のとき肝数値の異常が判明！原因不明の慢性肝炎として、定期的な血液検査と3日に1回の投薬が必要になってしまいました。<br>現在も3～4ヶ月に1回、血液検査と処方薬で11,000円弱かかりますが保険のおかげで助かっています。
+						</p>
+					</div>
+					<div class="slide_inner02">
+						<figure><img src="img/comment/icon_anicom.png"></figure>
+						<div class="name">
+							<span>アニコム</span>
+							<p>慢性疾患になると、長期間の通院を余儀なくされる場合もあります。<br>どうぶつ健保ふぁみりぃなら「通院」も補償対象で、どんなことが起こっても安心です。</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide_inner">
+						<div class="name">
+							<figure><img src="/lp/img/sora.png"></figure>
+							<span>プードル<br>そらちゃん</span>
+						</div>
+						<p>いつも活発なそらが8ヶ月のとき、食べ物欲しさにテーブルに向かってジャンプし、着地を誤り左前足を複雑骨折。<br>1週間の入院と3度の手術、傷口の経過観察の通院を経て、完治するまでかかった治療費はびっくりするほど高額でしたが、70％プランに入っているおかげで、負担は50万円程で済みました。
+						</p>
+					</div>
+					<div class="slide_inner02">
+						<figure><img src="img/comment/icon_anicom.png"></figure>
+						<div class="name">
+							<span>アニコム</span>
+							<p>飼い主さんが治療に専念されたおかげでそらちゃんは後遺症も無く、元気いっぱいと伺っています。特に1歳までの間は骨の成長スピードが速い分、強度が成長に追いつかないことがあります。そのため、自分で50センチほどの高さから飛び降りただけで骨折してしまうケースも珍しくありません。<br>ワンちゃんとの生活では、飼い主さんがよく気をつけてあげることが大切です。
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide_inner">
+						<div class="name">
+							<figure><img src="/lp/img/nigth.png"></figure>
+							<span>ねこ<br>ナイトちゃん</span>
+						</div>
+						<p>闘病しておりました我が家のナイトですが、手術で無事元気な猫に復活しました。胸腺腫の請求は今回で最後になると思います。地元主治医の動物病院に戻り、年内は予備の血液検査が必要とのことですが、そこはアニコムの対応病院なので安心です。<br>本当に今回は大変お世話になりました。査定が入るとは思いますが、引き続き頼れるお守りとしてアニコムを継続していきます。
+						</p>
+					</div>
+					<div class="slide_inner02">
+						<figure><img src="img/comment/icon_anicom.png"></figure>
+						<div class="name">
+							<span>アニコム</span>
+							<p>胸腺腫は大きくなると心臓を圧迫し、腹水や呼吸困難を引き起こします。<br>アニコム損保なら、更新後にケガ・病気が再発した場合でも、原則終身継続可能だから安心です。</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide_inner">
+						<div class="name">
+							<figure><img src="/lp/img/jobannni.png"></figure>
+							<span>ヨークシャテリア<br>ジョバンニちゃん</span>
+						</div>
+						<p>やっと治療の終わりのめどがつきました。<br>はじめて動物を飼いまして、こんなに可哀想な思いをさせてしまい、また、こんなにお金がかかるとは思っても見ませんでした。<br>十分に分からず、保険に入ってもきっと使う事などないと思っておりましたが、入っていてほんとうに良かったと思っております。
+						</p>
+					</div>
+					<div class="slide_inner02">
+						<figure><img src="img/comment/icon_anicom.png"></figure>
+						<div class="name">
+							<span>アニコム</span>
+							<p>近年、獣医療が発達して、多くの病気に対処できるようになりましたが、その分高度な医療処置には、高額な医療費がかかることもあります。<br>対処が遅れてワンちゃん、ネコちゃんに辛い思いをさせないためにも、保険は必要です。
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="slide">
+					<div class="slide_inner">
+						<div class="name">
+							<figure><img src="/lp/img/kemumaki.png"></figure>
+							<span>ねこ<br>けむまきちゃん・プーアルちゃん</span>
+						</div>
+						<p>ある日、長時間の留守番をさせていたところ、普段猫たちが入れない部屋の扉が開いていて、あさった形跡がありました。<br>翌日2頭とも嘔吐を繰り返したため誤飲疑いで通院。レントゲン撮影に加え、プーアルはさらにバリウムを飲ませることに。なんと出し汁パックの袋が出てきました･･･。
+						</p>
+					</div>
+					<div class="slide_inner02">
+						<figure><img src="img/comment/icon_anicom.png"></figure>
+						<div class="name">
+							<span>アニコム</span>
+							<p>誤飲は、ネコちゃんが病院にかかることで多い原因のひとつです。病気・ケガだけでなく、健康体といえどもネコちゃん自体が原因で起こることにも気をつける必要があります。</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="annsinn">
+				<div class="sec_ttl inner">
+					<div class="sec_catch">どうぶつにも人と同じ“あんしん”を</div>
+					<h3 class="ttl_boder">“どうぶつ”の健康保険</h3>
+					<p class="sec_lead">公的な健康保険の制度がないどうぶつの治療費は全額自己負担。ペット保険の利用で、金銭的不安なく動物病院へ足を運んでいただけます。</p>
+				</div>
+				<div class="sec_kv">
+					<img src="img/comment_annsinn.png" alt="全国すべての動物病院での診療費が対象です" class="pc">
+					<img src="img/sp/comment_annsinn01.png" alt="全国すべての動物病院での診療費が対象です" class="sp">
+					<img src="img/sp/comment_annsinn02.png" alt="全国すべての動物病院での診療費が対象です" class="sp">
+				</div>
+			</div>
+		</section>
+
+
+		<section class="age inner">
+			<div class="sec_ttl">
+				<h3 class="ttl_boder"><span>お申込みいただける</span>どうぶつと年齢</h3>
+			</div>
+			<div class="age_box">
+				<div class="age_img"><img src="img/age_img.png" alt="犬 猫"></div>
+				<div class="age_txt">
+					<img src="img/age_txt.png" alt="8歳から(上限なし)原則ご継続は終身OK!!" class="pc">
+					<img src="img/age_txt_sp.png" alt="8歳から(上限なし)原則ご継続は終身OK!!" class="sp">
+					<div class="attention">※年齢は保険契約の始期日時点での満年齢です。</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="plan">
+			<div class="plan_box inner">
+				<div class="plan_ttl">
+					<img src="img/plan_ttl.png" alt="「通院＋入院＋手術」補償の総合型タイプの保険" class="pc">
+					<img src="img/plan_ttl_sp.png" alt="「通院＋入院＋手術」補償の総合型タイプの保険" class="sp">
+				</div>
+				<div class="plan_img">
+					<img src="img/plan_img.png" alt="どうぶつ医療のトータルサポート">
+					<div class="attention">どうぶつのケガ・病気にかかる「通院費」「入院費」「手術代」など、<br class="pc">どうぶつ医療の一部をアニコム損保が負担いたします。
+					</div>
+				</div>
+			</div>
+			<div class="sec_ttl">
+				<h3 class="ttl_boder">2つのプランをご用意</h3>
+			</div>
+
+			<div class="plan_block inner">
+				<div class="plan_exam">
+					<div class="sec_catch"><span>しっかり備える</span></div>
+					<img src="img/plan_70.png" alt="ふぁみりぃ70%プラン">
+				</div>
+				<div class="plan_exam">
+					<div class="sec_catch"><span>手軽に備える</span></div>
+					<img src="img/plan_50.png" alt="ふぁみりぃ50%プラン">
+				</div>
+				<div class="attention">
+					どうぶつのケガ・病気に対して、保険の対象となる診療費の<span>70％（自己負担30％）と50％（自己負担50％）</span>を支払限度の範囲でお支払いします。</div>
+			</div>
+		</section>
+
+		<section id="linkarea" class="navArea">
+			<div class="sec_ttl">
+				<div class="sec_catch ttl_illust">きちんと備えていたいあなたへ</div>
+				<div class="sec_catch">アニコム損保のペット保険</div>
+				<h3>どうぶつ健保ふぁみりぃ</h3>
+			</div>
+
+			<div class="movieCont">
+				<div class="inner">
+					<h3 class="baloon bf">動画で分かる！アニコム損保の保険</h3>
+					<div class="movie">
+						<iframe width="560" height="315"
+							src="https://www.youtube.com/embed/riHfwTY2jtY?rel=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Ftest-new.anicom-sompo.co.jp"
+							frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen="" data-gtm-yt-inspected-6906774_256="true" id="778356442"></iframe>
+					</div>
+				</div>
+			</div>
+
+			<div class="btn_area wrap">
+				<div class="btn_box">
+					<h4>保険を知る</h4>
+					<div class="btn"><a href="/lp/family_neko/detail/?aid=999988880188#sec01" target="_blank">補償内容</a>
+					</div>
+					<div class="btn"><a href="/lp/family_neko/detail/?aid=999988880188#sec03"
+							target="_blank">保険金請求の事例</a></div>
+				</div>
+				<div class="btn_box">
+					<h4>保険料のお見積り</h4>
+					<div class="btn"><a href="/lp/family_neko/detail/?aid=999988880188#sec05"
+							target="_blank">お見積り＆保険料表</a></div>
+				</div>
+				<div class="btn_box">
+					<h4>契約前のお知らせ</h4>
+					<div class="btn"><a href="/lp/family_neko/detail/?aid=999988880188#sec07"
+							target="_blank">契約前の注意事項</a></div>
+					<div class="btn"><a href="/lp/family_neko/detail/?aid=999988880188#sec04"
+							target="_blank">補償の対象外は？</a></div>
+					<div class="btn"><a href="/lp/family_neko/detail/?aid=999988880188#sec06"
+							target="_blank">よくあるご質問</a></div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="merit">
+			<div class="sec_kv">
+				<img src="img/merit_kv.png" alt="アニコム損保保険のメリット" class="pc">
+				<img src="img/sp/merit_kv.png" alt="アニコム損保保険のメリット" class="sp">
+			</div>
+			<div class="sec_ttl sp">
+				<div class="sec_catch"><span>保険に入って本当に助かる！</span></div>
+				<h3>アニコム損保<br>保険のメリット</h3>
+			</div>
+
+			<div class="container">
+				<div class="sec_point">
+					<img src="img/merit_point01.png" alt="病院窓口で保険金の請求が済む" class="pc">
+					<img src="img/merit_point02.png" alt="充実のどうぶつ長生きサポート" class="pc">
+					<img src="img/sp/merit_point01.png" alt="病院窓口で保険金の請求が済む" class="sp">
+					<img src="img/sp/merit_point02.png" alt="充実のどうぶつ長生きサポート" class="sp">
+				</div>
+			</div>
+
+			<section class="point01" id="point01">
+				<div class="sec_ttl">
+					<div class="point_icon"><img src="img/merit_icon01.png" alt="point01"></div>
+					<div class="sec_catch">保険金請求をもっと手軽に</div>
+					<h3>病院窓口での精算</h3>
+					<p>従来の書類での保険金請求に加え、アニコム損保では病院の窓口で精算できる便利な仕組みがあります。</p>
+				</div>
+
+
+				<div class="card container">
+					<div class="card_box">
+						<div class="card_txt">
+							<h4 class="sec_subttl">「どうぶつ健保」対応病院の場合</h4>
+							<div class="sec_catch"><span>病院の窓口での精算に対応</span></div>
+							<div class="card_boder">どうぶつ健康保険証</div>
+							<figure class="sp"><img src="img/merit_p01_sample.png" alt="どうぶつ健康保険証"></figure>
+							<p>「どうぶつ健康保険証」を窓口に提示するだけで、保険金の請求が完了。対応病院では診療費の自己負担分のみでOK!<br>（「どうぶつ健保ふぁみりぃ」のみ）</p>
+							<p>※「どうぶつ健保ぷち」では、どうぶつ健康保険証は発行されません。</p>
+						</div>
+						<figure class="pc"><img src="img/merit_p01_sample.png" alt="どうぶつ健康保険証"></figure>
+					</div>
+				</div>
+
+
+				<div class="example">
+					<div class="container">
+
+						<div class="example_block">
+							<div class="example_box">
+								<h4>窓口精算のイメージ</h4>
+								<img src="img/merit_p01_img01.png" alt="窓口精算のイメージ">
+							</div>
+							<div class="example_box">
+								<h4>対応動物病院</h4>
+								<img src="img/merit_p01_img02.png" alt="対応動物病院">
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="line container">
+					<div class="sec_ttl">
+						<div class="sec_txt">「どうぶつ健保」対応病院<br class="sp">以外でも簡単に<br class="sp">請求できます！</div>
+						<div class="sec_catch"><span>たった3分で請求完了！</span></div>
+						<h3>LINE保険金請求</h3>
+						<img src="img/icon_line.png" class="sp">
+					</div>
+					<div class="step">
+						<p class="phone"><img src="img/merit_p01_line.png"></p>
+						<p class="flow">
+							<img src="img/icon_line.png" class="pc">
+							<img src="img/merit_p01_flow.png" class="pc">
+							<img src="img/sp/merit_p01_flow.png" class="sp">
+							<span>※手術の保険金請求はLINEでは出来ません</span>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="point02">
+				<div class="sec_ttl inner">
+					<div class="point_icon"><img src="img/merit_icon02.png" alt="point02"></div>
+					<div class="sec_catch">どうぶつの生活をより豊かに、健康に</div>
+					<h3>アニコム損保の<br class="sp">あんしんサービス</h3>
+					<p>いつもの健康も、もしものお悩みもおまかせ。安心のサポートサービスをご用意しています。</p>
+				</div>
+
+				<div class="service">
+					<div class="wrap">
+						<div class="service_block">
+							<div class="service_box">
+								<h5>どうぶつの健康を<br class="sp">うんちで測れる</h5>
+								<figure><img src="/lp/senior_agency/service_agency/img/merit_p03_img01.png"
+										alt="どうぶつの健康をうんちで測れる"></figure>
+								<p>ペットの健康をサポートするサービス※<br><span>※病気を診断するものではありません。</span></p>
+							</div>
+							<div class="service_box">
+								<h5>何かあったらLINEで<br class="sp">すぐに相談できる</h5>
+								<figure><img src="/lp/senior_agency/service_agency/img/merit_p03_img02.png"
+										alt="何かあったらLINEですぐに相談できる"></figure>
+								<p>獣医師によるLINEでの相談サービス</p>
+							</div>
+							<div class="service_box">
+								<h5>もしも、ペットが<br class="sp">迷子になってもあんしん</h5>
+								<figure><img src="/lp/senior_agency/service_agency/img/merit_p03_img03.png"
+										alt="もしも、ペットが迷子になってもあんしん"></figure>
+								<p>どうぶつの迷子捜索サービス</p>
+							</div>
+						</div>
+					</div>
+					<div class="more">
+						<div class="container">
+							<ul>
+								<li>いくら補償してもらえるの？</li>
+								<li>保険料はいくら？</li>
+								<li>補償対象外のケースは？</li>
+							</ul>
+							<div class="btn">
+								<p>もっと詳しく保険を知りたい人は</p>
+								<a href="/lp/family_neko/detail/?aid=999988880188" target="_blank">どうぶつ健保<br
+										class="sp">ふぁみりぃについて</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="iroha container">
+				<div class="sec_ttl">
+					<h3>申込方法を調べる</h3>
+				</div>
+				<h4>2つのお申込方法</h4>
+				<div class="inner">
+					<p>申込方法には「オンライン加入」と「申込書」の2つの方法があります。</p>
+					<div class="iroha_block">
+						<div class="iroha_box">
+							<img src="img/iroha_img01.png" alt="オンライン加入">
+							<p>オンライン加入</p>
+						</div>
+						<div class="iroha_box">
+							<img src="img/iroha_img02.png" alt="申込書（郵送）">
+							<p>申込書（郵送）</p>
+						</div>
+					</div>
+					<p class="iroha_txt">申込方法により、以下2点が異なります。<br class="sp"><span>「①お支払い方法」</span>と<br
+							class="sp"><span>「②保険契約の開始日」</span>です。</p>
+					<h5>①お支払い方法</h5>
+					<p>オンライン加入はクレジットカードのみのお取扱いになります。</p>
+					<div class="iroha_table"><img src="img/iroha_table.png" alt="お申し込み方法"></div>
+					<h5>②保険契約の開始日</h5>
+					<p>オンラインのほうが早く補償が開始されます！</p>
+					<div class="iroha_block">
+						<div class="iroha_box">
+							<img src="img/iroha_img01.png" alt="オンライン加入">
+							<img src="img/iroha_txt01.png" alt="お手続きが完了した日の1ヶ月後から補償開始" class="pc">
+							<img src="img/iroha_txt01_sp.png" alt="お手続きが完了した日の1ヶ月後から補償開始" class="sp">
+							<div class="btn"><a href="https://cs.anicom-sompo.co.jp/ol_kanyu/top/99-0000-0000/999988880188/" target="blank">オンライン<br class="sp">申込み</a>
+							</div>
+						</div>
+						<div class="iroha_box">
+							<img src="img/iroha_img02.png" alt="申込書（郵送）">
+							<img src="img/iroha_txt02.png" alt="毎月25日までにアニコム損保へ翌々月1日より補償開始" class="pc">
+							<img src="img/iroha_txt02_sp.png" alt="毎月25日までにアニコム損保へ翌々月1日より補償開始" class="sp">
+							<div class="btn"><a href="/seikyu/?aid=999988880188" target="blank">資料請求<span>申込書在中</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="other">
+				<div class="sec_ttl inner">
+					<div class="point_icon"><img src="img/merit_icon03.png" alt="他にも"></div>
+					<div class="sec_catch">どうぶつの年齢別</div>
+					<h3>アニコム損保の<br class="sp">保険ラインナップ</h3>
+					<h4 class="sec_subttl">ワンちゃん・ネコちゃんの場合</h4>
+				</div>
+				<div class="lineup wrap">
+					<div class="lineup_box">
+						<div class="age"><span><i>お申込みいただける年齢</i>0〜7歳11ヶ月まで</span></div>
+						<figure><img src="img/merit_p03_img01.png" alt="通院 入院 手術の総合タイプ"></figure>
+						<div class="lineup_inner">
+							<div class="type"><span>アニコム損保のペット保険</span>
+								<p><i>どうぶつ健保</i> ふぁみりぃ</p>
+							</div>
+							<div class="percentage"><span>支払割合</span><img src="img/merit_p03_num01.png" alt="70% 50%">
+							</div>
+							<div class="limit">
+								<p><img src="img/merit_p03_illust.png"></p>
+								<p>
+									<i>とり・うさぎ・フェレットも<br>お申込みいただけます。</i>
+									<span>3歳11ヶ月まで</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="lineup_box">
+						<div class="age"><span><i>お申込みいただける年齢</i>0〜7歳11ヶ月まで</span></div>
+						<figure><img src="img/merit_p03_img02.png" alt="入院 手術の特化型"></figure>
+						<div class="lineup_inner">
+							<div class="type"><span>アニコム損保のペット保険</span>
+								<p><i>どうぶつ健保</i> ぷち</p>
+							</div>
+							<div class="percentage"><span>支払割合</span><img src="img/merit_p03_num02.png" alt="70%"></div>
+							<div class="btn"><a href="/lp/?petit=1&aid=999988880188" target="_blank">詳細はこちら</a>
+							</div>
+						</div>
+					</div>
+					<div class="lineup_box new">
+						<div class="age"><span><i>お申込みいただける年齢</i>8歳〜上限無し</span></div>
+						<figure><img src="img/merit_p03_img03.png" alt="入院 手術の特化型"></figure>
+						<div class="lineup_inner">
+							<div class="type"><span>アニコム損保のペット保険</span>
+								<p><i>どうぶつ健保</i> しにあ</p>
+							</div>
+							<div class="percentage"><span>支払割合</span><img src="img/merit_p03_num03.png" alt="70%"></div>
+							<div class="btn"><a href="/lp/senior/service/?aid=999988880188"
+									target="_blank">詳細はこちら</a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+
+		<section id="action">
+			<div class="sec_ttl">
+				<div class="sec_kv">
+					<img src="img/action_kv.png" alt="アニコム損保へのお問い合わせ" class="pc">
+					<img src="img/sp/action_kv.png" alt="アニコム損保へのお問い合わせ" class="sp">
+				</div>
+				<h3>アニコム損保へのお問い合わせ</h3>
+				<div class="action_how">
+					<ul>
+						<li><a href="#action01"><img src="img/action_icon01.png"
+									alt="オンラインお見積り"><span>オンライン<br>お見積り</span></a></li>
+						<li><a href="#action02"><img src="img/action_icon02.png" alt="資料請求"><span>資料請求</span></a></li>
+						<li><a href="#action03"><img src="img/action_icon03.png"
+									alt="オンライン申し込み"><span>オンライン<br>お申込み</span></a></li>
+					</ul>
+					<p>があります。</p>
+				</div>
+			</div>
+
+
+			<section id="action01">
+				<div class="action_ttl">
+					<p>いますぐ!</p>
+					<h4>オンラインお見積り</h4>
+				</div>
+				<div class="action_box container">
+					<figure><a href="https://cs.anicom-sompo.co.jp/ol_kanyu/top/99-0000-0000/999988880188/" target="_blank"><img src="img/action_img01.jpg"
+								alt="オンラインお見積り"></a></figure>
+					<div class="action_txt">
+						<h5>1分で完了！5つの質問に答えるだけ</h5>
+						<p>どうぶつさんの保険料をしらべてみましょう！</p>
+						<div class="btn"><a href="https://cs.anicom-sompo.co.jp/ol_kanyu/top/99-0000-0000/999988880188/" target="_blank">オンラインお見積り</a></div>
+					</div>
+				</div>
+			</section>
+
+			<section id="action02">
+				<div class="action_ttl">
+					<p>とにかく！</p>
+					<h4>資料請求</h4>
+				</div>
+				<div class="action_box container">
+					<figure>
+						<a href="/seikyu/?aid=999988880188" target="_blank"><img src="img/action_img02.jpg" alt="資料請求"></a>
+					</figure>
+					<div class="action_txt">
+						<p>「どうぶつ健保ふぁみりぃ」「どうぶつ健保ぷち」犬・猫専用パンフレットをおおくりいたします。<br>【資料内容】<br>パンフレット兼重要事項説明書<br>契約申込書<br>告知書<br>返信用封筒<br><span>※鳥・うさぎ・フェレット専用パンフレットもございます。</span>
+						</p>
+						<div class="btn"><a href="/seikyu/?aid=999988880188" target="_blank">資料請求</a></div>
+					</div>
+				</div>
+			</section>
+
+			<section id="action03">
+				<div class="action_ttl">
+					<p>心は決まりました！</p>
+					<h4>オンラインお申込み</h4>
+				</div>
+				<div class="action_box container">
+					<figure><a href="https://cs.anicom-sompo.co.jp/ol_kanyu/top/99-0000-0000/999988880188/" target="_blank"><img src="img/action_img03.jpg"
+								alt="カンタンお申込み"></a></figure>
+					<div class="action_txt">
+						<h5>カンタンお申込み</h5>
+						<p>手元にどうぶつさんのベストショットを用意しましょう！（どうぶつ健康保険証用の証明写真になります）</p>
+						<div class="btn"><a href="https://cs.anicom-sompo.co.jp/ol_kanyu/top/99-0000-0000/999988880188/" target="_blank">オンラインお申込み</a></div>
+						<div class="point">
+							<p class="point_ttl">ポイント</p>
+							<p class="point_txt">はじめにオンラインで保険料のお見積もりをご確認いただいた後にお申込みとなります。</p>
+							<p class="point_ph"><img src="img/action_flow.png" alt=""></p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+	</main>
+
+	<footer class="wrap">
+		<div class="sec_ttl">
+			<h3>お問合せ先</h3>
+			<div class="tel"><a href="tel:0800-888-8256">0800-888-8256</a></div>
+			<h4>アニコム損保あんしんサービスセンター</h4>
+		</div>
+		<dl>
+			<dt>受付時間</dt>
+			<dd>
+				<p><span>平日</span>9:30-17:30</p>
+				<p><span>土日祝</span>9:30-15:30</p>
+			</dd>
+		</dl>
+		<div class="attention">※サービス向上のため、通話内容を録音させていただきます。</div>
+		<div class="cmp_blc">
+			<div class="ttl">引受保険会社</div>
+		</div>
+
+		<div class="foot_info">
+			<div class="foot_infoinner">
+				<div class="foot_infoTtl">アニコム損害保険株式会社</div>
+				<p>〒160-8352<br>東京都新宿区西新宿8-17-1　住友不動産新宿グランドタワー39階</p>
+			</div>
+			<div class="logo">
+				<a href="https://www.anicom-sompo.co.jp/" target="_blank"><img src="img/foot_logo.png"
+						alt="anicom アニコム損害保険株式会社"></a>
+			</div>
+		</div>
+	</footer>
+	<script>
+		/* ==================================================
+	アコーディオン
+	================================================== */
+		$(function () {
+			$('#openModal').click(function () {
+				$('#modalArea').fadeIn();
+			});
+			$('#closeModal , #modalBg').click(function () {
+				$('#modalArea').fadeOut();
+			});
+		});
+	</script>
+</body>
+
+</html>
